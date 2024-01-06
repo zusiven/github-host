@@ -1,6 +1,7 @@
 name: auto CI
 
 on:
+  workflow_dispatch:
   push:
     branches: [ master ]
   pull_request:
